@@ -1,0 +1,283 @@
+*{
+	margin: 0; padding: 0;box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	width: 100%; height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('../images/India_Gate.jpg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav{
+	width: 100%; height: 15vh;
+	background: rgba(0,0,0,0.2);
+	color: white; display: flex; justify-content: space-between;
+	align-items: center; text-transform: uppercase;
+}
+
+nav .logo{
+	width: 25%; text-align: center;
+	/*background: red;*/
+}
+
+nav .menu{
+	width: 40%;
+	display: flex; justify-content: space-around;
+}
+
+nav .menu a {
+	width: 25%;
+	text-decoration: none; color: white;
+	font-weight: bold;
+}
+
+nav .menu a:first-child{
+	color:#00b894;
+}
+main{
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center; color: white;
+}
+
+
+
+
+section h3{
+	font-size: 35px; font-weight: 200; letter-spacing: 3px;
+	text-shadow: 1px 1px 2px black;
+}
+
+section h1{
+	margin: 30px 0 20px 0;
+	font-size: 55px;
+	font-weight: 700;
+	text-shadow: 2px 1px 5px black;
+	text-transform: uppercase;
+}
+
+section p{
+	font-size: 25px;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px black;
+}
+
+section a{
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all .5s ease;
+}
+
+section .btnone{
+	background: #fff;
+	color: #000;
+
+}
+
+.btnone:hover{
+	background: #00b894;
+	color: white;
+}
+
+section .btntwo{
+	background: #00b894;
+	color: white;
+}
+
+.btntwo:hover{
+	background: #fff;
+	color: #000;
+}
+
+.change_content:after{
+	content: '';
+	animation: changetext 10s infinite linear;
+	color: #00b894
+}
+
+@keyframes changetext{
+	0%{content: "Darjeeling";}
+	20%{content: "Agra";}
+	35%{content: "jaipur";}
+	60%{content: "Kerala";}
+	80%{content: "Mumbai";}
+	100%{content: "Delhi";}
+
+}
+
+footer{
+
+	bottom:2 ;
+}
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 0px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+
+}

@@ -1,0 +1,70 @@
+.collapse.navbar-collapse{
+  justify-content: space-between;
+  font-size: 20px;
+  color: #1e1e20;
+}
+
+body{
+  background-color: #fffbfbf7;
+  box-shadow: #7676c5;
+}
+
+
+
+p{
+  color: rgb(19, 16, 13);
+}
+li{
+  color: #1d1c11;
+}
+
+h3{
+  color: darkorange;
+}
+
+h4{
+  color: brown;
+}
+
+
+
+.bg-light {
+  background-color: #a2c73c!important;
+}
+
+
+.carousel-indicators{
+  color: #0a0a0c;
+  bottom: -15px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+  color: #0b0b13;
+  width: 3%;
+}
+
+nav .logo{
+	width: 25%; text-align: center;
+	/*background: red;*/
+}
+
+nav .menu{
+	width: 40%; 
+	display: flex; justify-content: space-around;
+}
+
+nav .menu a {
+	width: 25%;
+	text-decoration: none; color: rgb(26, 15, 15);
+	font-weight: bold;
+}
+ 
+nav .menu a:first-child{
+	color:#00b894;
+}
+nav{
+	width: 100%; height: 15vh;
+	background: rgba(13, 218, 184, 0.2);
+	color: rgb(245, 12, 12); display: flex; justify-content: space-between;
+	align-items: center; text-transform: uppercase;
+}

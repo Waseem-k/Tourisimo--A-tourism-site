@@ -1,0 +1,1124 @@
+<html>
+    <head>
+        <!-- Compiled and minified CSS -->
+        <!-- <link rel="stylesheet" href="css/materialize.min.css"> -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/new.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <script src="js/jquery-3.2.1.slime.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/popper.min.js"></script>
+    </head>
+    <body>
+      <header>
+        <nav>
+          <div class="logo"> <h1 class="animate__animated animate__infinite animate__heartBeat"> Tourisimo </h1> </div>
+          <div class="menu">
+            <a href="index.html" target="_blank">Home</a>
+            <a href="book.html" target="_blank">gallery</a>
+            <a href="about.html" target="_blank">about</a>
+            <a href="contact.html">contact</a>
+          </div>
+        </nav>
+      </header>
+        <hr>
+
+        <div class="container-fluid">
+            <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" style="margin-top: 1vw;">
+
+                <h4>STUDENT PACKAGES</h4>
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                    <li data-target="#multi-item-example" data-slide-to="1"></li>
+                    <li data-target="#multi-item-example" data-slide-to="2"></li>
+                </ol>
+                <!--/.Indicators-->
+
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+
+                    <!--First slide-->
+                    <div class="carousel-item active">
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/ahmedabad.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body ">
+                                      <h5 class="card-title">Ahmedabad</h5>
+                                      <p class="card-text"> Ahmedabad, also known as Amdavad, is one of the largest cities of India and the former capital of Gujarat. This city of famous tourist attractions is situated on the banks of Sabarmati river and is known for its world-famous cotton textiles, a wide variety of mouth-watering snacks, diamond cutting, and much more</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item"> • Swaminarayan Temple
+                                        • 18th century “pols”
+                                        • Jama Masjid Mosque
+                                        • Sidi Bashir Mosque and the “Shaking Minarets</li>
+                                      <li class="list-group-item">STATE: GUJRAT</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,636, 5-star averaging ₹4,264</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <button type="button" onclick="loadDoc()">Click Here</button>
+
+                        <script>
+                        function loadDoc() {
+                          var xhttp = new XMLHttpRequest();
+                          xhttp.onreadystatechange = function() {
+                            if (xhttp.readyState == 4 && xhttp.status == 200) {
+                              document.getElementById("demo").innerHTML = xhttp.responseText;
+                            }
+                          };
+                          xhttp.open("GET", "ajax.html", true);
+                          xhttp.send();
+                        }
+                        </script>
+                      </div>
+                      <div id="demo"><h>To see more popular Places</h>
+
+</div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/taj.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Agra</h5>
+                                      <p class="card-text">Agra is a city on the banks of the Yamuna river in the Agra district of the Indian state of Uttar Pradesh. It is 206 kilometres south of the national capital New Delhi. Agra is the fourth-most populous city in Uttar Pradesh and 24th in India.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item"> Majestic Gardens. Majestic Gardens.
+                                        Various UNESCO World Heritage Sites. Taj Mahal, Agra.
+                                        Great Shopping Locations. Shopping Street in Agra.
+                                        Mughlai Food.
+                                        Petha.
+                                        Wildlife SOS.
+                                        Kinari Bazaar.
+                                         Jama Masjid.</li>
+                                      <li class="list-group-item">STATE: UTTAR PRADESH</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,396, 5-star averaging ₹4,192</li>
+
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/bengaluru.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Bengaluru</h5>
+                                      <p class="card-text">Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state. The center of India's high-tech industry, the city is also known for its parks and nightlife. By Cubbon Park, Vidhana Soudha is a Neo-Dravidian legislative building.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item">Bangalore Palace.
+                                        Tipu Sultan's Summer Palace,
+                                        Vidhana Soudha,
+                                        ISKCON Temple,
+                                        Halasuru Someshwara Temple,
+                                        Shivoham Shiva Temple,
+                                        Bull Temple.
+                                        Seshadri Iyer Memorial Hall</li>
+                                      <li class="list-group-item">STATE: KARNATAKA</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,838, 5-star averaging ₹5,479</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/chennai.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Chennai</h5>
+                                      <p class="card-text">Chennai, on the Bay of Bengal in eastern India, is the capital of the state of Tamil Nadu. The city is home to Fort St. George, built in 1644 and now a museum showcasing the city’s roots as a British military garrison and East India Company trading outpost.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item">Marina Beach	Valluvar Kottam
+                                        Thousand Lights Mosque	Elliot's Beach
+                                        Dakshinachitra	Ashtalakshmi Temple
+                                        Government Museum	Mylapore
+                                        Guindy National Park.</li>
+                                      <li class="list-group-item">STATE: TAMIL NADU</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,914, 5-star averaging ₹4,766</li>
+
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--row-->
+
+                    </div>
+                    <!--/.First slide-->
+
+                    <!--Second slide-->
+                    <div class="carousel-item">
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/kerala.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Kerala</h5>
+                                      <p class="card-text">Kerala, a state situated on the tropical Malabar Coast of southwestern India, Named as one of the ten paradises of the world by National Geographic Traveler, Kerala is famous especially for its ecotourism initiatives and beautiful backwaters.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item">Napier Museum, Thiruvananthapuram.
+                                        Alleppey, Backwater.
+                                        Mesmerising View of Munnar.
+                                        Kumarakom Houseboat.
+                                        Wayanad Wildlife Sanctuary.
+                                        Periyar National Park.</li>
+                                      <li class="list-group-item">STATE: KERALA</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹2,914, 5-star averaging ₹6,766</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/KOCHI.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Kochi</h5>
+                                      <p class="card-text">Called the "Queen of the Arabian Sea", Kochi was an important spice trading centre on the west coast of India from the 14th century onward, and maintained a trade network with Arab merchants from the pre-Islamic era. Occupied by the Portuguese in 1503.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item">Chinese fishing nets.
+                                        Mattancherry Palace.
+                                        Paradesi Synagogue.
+                                        Kodanad Elephant Training Centre.
+                                        Kathakali performances.
+                                        St Francis Church.
+                                        Kerala Folklore Theatre</li>
+                                      <li class="list-group-item">STATE: KERALA</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,514, 5-star averaging ₹3,766</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/Kolkata.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Kolkata</h5>
+                                      <p class="card-text">Kolkata, formerly known as Calcutta, is the educational, commercial and cultural centre of the Eastern part of India, and is the third most populous metropolitan city of India. Kolkata is a pioneer in the field of drama, arts, theatreand literature with several nobel laureates .</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item">Victoria Memorial,Dakshineswar Kali Temple.Fort William. ...
+                                        Writer's Building.
+                                        Marble Palace.
+                                        Indian Museum.
+                                        Town Hall.
+                                        Tagore's House.</li>
+                                      <li class="list-group-item">STATE: WEST BENGAL</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,714, 5-star averaging ₹5,789</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/jaipur.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Jaipur</h5>
+                                      <p class="card-text">Jaipur, popularly known as the Pink City of India, is the largest city in the state of Rajasthan. It is also the capital of Rajasthan. Known for Hawa Mahal, Jal Mahal, Amer Fort, Jantar Mantar and several other places to visit, Jaipur has numerous stories to tell.It is 268 km from the capital New Delhi.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item">Smriti Van.
+                                        Sisodia Rani Garden & Palace.
+                                        Jawahar Circle Garden
+                                        Samode Palace
+                                        Rambagh Palace.
+                                        Nahargarh Fort.
+                                        Amber Fort Jaipur.
+                                        Jaigarh Fort.</li>
+                                      <li class="list-group-item">STATE: RAJASTHAN</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹4,714, 5-star averaging ₹8,789</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    </div>
+                    <!--/.Second slide-->
+
+                    <!--Third slide-->
+                    <div class="carousel-item">
+
+                    <div class="row">
+                        <div class="col-md-3">
+                        <div class="card mb-2">
+                            <div class="card shadow" style="width: 22rem;">
+                                <img src="images/goa.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Goa</h5>
+                                  <p class="card-text">Goa is visited by large numbers of international and domestic tourists each year for its white sand beaches, nightlife, places of worship and World Heritage-listed architecture. It has rich flora and fauna, owing to its location on the Western Ghats range, a biodiversity hotspot.</p>
+                                </div>
+                                <ul class="list-group list-group-flush ">
+                                  <li class="list-group-item"> Rent a Private Villa in Goa.
+                                     The Beaches.
+                                     Water Sports.
+                                     Kayaking.
+                                     Whitewater Rafting.
+                                     Snorkeling, Scuba Diving.
+                                     Dolphin Tours.
+                                     Cruising.</li>
+                                  <li class="list-group-item">STATE: GOA</li>
+                                  <li class="list-group-item">HOTELS: 3-star hotel averaging ₹6,714, 5-star averaging ₹10,789</li>
+                                </ul>
+                                <div class="card-body">
+                                  <a href="#" class="btn btn-success">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                        <div class="card mb-2">
+                            <div class="card shadow" style="width: 22rem;">
+                                <img src="images/ooty.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Ooty</h5>
+                                  <p class="card-text">Ooty is most famous for its tea plantations. Connoisseurs will find plenty to choose from: dust and leaf; black, green, black and white varieties; and flavours such as masala, jasmine, cardamom and even chocolate.</p>
+                                </div>
+                                <ul class="list-group list-group-flush ">
+                                  <li class="list-group-item"> Avalanche Lake,Ooty Lake, Emerald Lake,Ooty Botanical Gardens,Deer Park,Doddabetta Peak,Kalhatty Waterfalls,Kamraj Sagar Dam,Mudumalai National Park,Mukurthi National Park,Needle View Hillpoint</li>
+                                  <li class="list-group-item">STATE:TAMIL NADU</li>
+                                  <li class="list-group-item">HOTELS: 3-star hotel averaging ₹4,714, 5-star averaging 6,589</li>
+                                </ul>
+                                <div class="card-body">
+                                  <a href="#" class="btn btn-success">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                        <div class="card mb-2">
+                            <div class="card shadow" style="width: 22rem;">
+                                <img src="images/mumbai.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Mumbai</h5>
+                                  <p class="card-text">Mumbai (formerly called Bombay) is a densely populated city on India’s west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924.</p>
+                                </div>
+                                <ul class="list-group list-group-flush ">
+                                  <li class="list-group-item">Gateway of India,,Sanjay Gandhi National Park,Red Carpet Wax Museum,. Haji Ali Dargah, Elephanta Caves, Siddhivinayak Temple,Chhatrapati Shivaji Terminus (CST),Marine Drive.</li>
+                                  <li class="list-group-item">STATE:MAHARASHTRA</li>
+                                  <li class="list-group-item">HOTELS: 3-star hotel averaging ₹10,714, 5-star averaging 15,589</li>
+                                </ul>
+                                <div class="card-body">
+                                  <a href="#" class="btn btn-success">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                        <div class="card mb-2">
+                            <div class="card shadow" style="width: 22rem;">
+                                <img src="images/hyderabad.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Hyderabad</h5>
+                                  <p class="card-text">Hyderabad is the capital of southern India's Telangana state. A major center for the technology industry, it's home to many upscale restaurants and shops. Its historic sites include Golconda Fort, a former diamond-trading center that was once the Qutb Shahi dynastic capital.</p>
+                                </div>
+                                <ul class="list-group list-group-flush ">
+                                  <li class="list-group-item">Golconda Fort.
+                                    The Charminar.
+                                    Mecca Masjid.
+                                    Qutb Shahi Tombs.
+                                    Hussain Sagar Lake.
+                                    Ramoji Film City.
+                                    Salar Jung Museum.
+                                    Chowmahalla Palace.
+                                    Paigah Tombs
+                                    Birla
+                                    </li>
+                                  <li class="list-group-item">STATE:TELANGANA</li>
+                                  <li class="list-group-item">HOTELS: 3-star hotel averaging ₹5,714, 5-star averaging 7,589</li>
+                                </ul>
+                                <div class="card-body">
+                                  <a href="#" class="btn btn-success">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    </div>
+                    <!--/.Third slide-->
+
+                    <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+                <!--/.Slides-->
+
+            </div>
+        </div>
+
+        <div class="container-fluid">
+          <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" style="margin-top: 1vw;">
+
+              <h4> GROUP PACKAGES</h4>
+              <!--Indicators-->
+              <ol class="carousel-indicators">
+                  <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                  <li data-target="#multi-item-example" data-slide-to="1"></li>
+                  <li data-target="#multi-item-example" data-slide-to="2"></li>
+              </ol>
+              <!--/.Indicators-->
+
+              <!--Slides-->
+              <div class="carousel-inner" role="listbox">
+
+                  <!--First slide-->
+                  <div class="carousel-item active">
+
+                  <div class="row">
+                      <div class="col-md-3">
+                          <div class="card mb-2">
+                              <div class="card shadow" style="width: 22rem;">
+                                  <img src="images/goa.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body ">
+                                    <h5 class="card-title">Goa</h5>
+                                    <p class="card-text">Goa is visited by large numbers of international and domestic tourists each year for its white sand beaches, nightlife, places of worship and World Heritage-listed architecture. It has rich flora and fauna, owing to its location on the Western Ghats range, a biodiversity hotspot.</p>
+                                  </div>
+                                  <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item"> Rent a Private Villa in Goa.
+                                      The Beaches.
+                                      Water Sports.
+                                      Kayaking.
+                                      Whitewater Rafting.
+                                      Snorkeling, Scuba Diving.
+                                      Dolphin Tours.
+                                      Cruising.
+ </li>
+                                    <li class="list-group-item">STATE: GOA</li>
+                                    <li class="list-group-item">HOTELS: 3-star hotel averaging ₹6,714, 5-star averaging ₹10,789</li>
+                                  </ul>
+                                  <div class="card-body">
+                                    <a href="#" class="btn btn-success">Contact</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-3 clearfix d-none d-md-block">
+                          <div class="card mb-2">
+                              <div class="card shadow" style="width: 22rem;">
+                                  <img src="images/ooty.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Ooty</h5>
+                                    <p class="card-text">Ooty is most famous for its tea plantations. Connoisseurs will find plenty to choose from: dust and leaf; black, green, black and white varieties; and flavours such as masala, jasmine, cardamom and even chocolate.</p>
+                                  </div>
+                                  <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item">Avalanche Lake,Ooty Lake, Emerald Lake,Ooty Botanical Gardens,Deer Park,Doddabetta Peak,Kalhatty Waterfalls,Kamraj Sagar Dam,Mudumalai National Park,Mukurthi National Park,Needle View Hillpoint</li>
+                                    <li class="list-group-item">STATE:TAMIL NADU</li>
+                                    <li class="list-group-item">HOTELS: 3-star hotel averaging ₹4,714, 5-star averaging 6,589</li>
+                                  </ul>
+                                  <div class="card-body">
+                                    <a href="#" class="btn btn-success">Contact</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-3 clearfix d-none d-md-block">
+                          <div class="card mb-2">
+                              <div class="card shadow" style="width: 22rem;">
+                                  <img src="images/mumbai.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Mumbai</h5>
+                                    <p class="card-text">Mumbai (formerly called Bombay) is a densely populated city on India’s west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924.</p>
+                                  </div>
+                                  <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item">Gateway of India,,Sanjay Gandhi National Park,Red Carpet Wax Museum,. Haji Ali Dargah, Elephanta Caves, Siddhivinayak Temple,Chhatrapati Shivaji Terminus (CST),Marine Drive.</li>
+                                    <li class="list-group-item">STATE:MAHARASHTRA</li>
+                                    <li class="list-group-item">HOTELS: 3-star hotel averaging ₹10,714, 5-star averaging 15,589</li>
+                                  </ul>
+                                  <div class="card-body">
+                                    <a href="#" class="btn btn-success">Contact</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-3 clearfix d-none d-md-block">
+                          <div class="card mb-2">
+                              <div class="card shadow" style="width: 22rem;">
+                                  <img src="images/hyderabad.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Hyderabad</h5>
+                                    <p class="card-text">Hyderabad is the capital of southern India's Telangana state. A major center for the technology industry, it's home to many upscale restaurants and shops. Its historic sites include Golconda Fort, a former diamond-trading center that was once the Qutb Shahi dynastic capital.
+                                    </p>
+                                  </div>
+                                  <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item">Golconda Fort.
+                                      The Charminar.
+                                      Mecca Masjid.
+                                      Qutb Shahi Tombs.
+                                      Hussain Sagar Lake.
+                                      Ramoji Film City.
+                                      Salar Jung Museum.
+                                      Chowmahalla Palace.
+                                      Paigah Tombs
+                                      Birla</li>
+                                    <li class="list-group-item">STATE:TELANGANA</li>
+                                    <li class="list-group-item">HOTELS: 3-star hotel averaging ₹5,714, 5-star averaging 7,589</li>
+                                  </ul>
+                                  <div class="card-body">
+                                    <a href="#" class="btn btn-success">Contact</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div> <!--row-->
+
+                  </div>
+                  <!--/.First slide-->
+
+                  <!--Second slide-->
+                  <div class="carousel-item">
+
+                  <div class="row">
+                      <div class="col-md-3">
+                          <div class="card mb-2">
+                              <div class="card shadow" style="width: 22rem;">
+                                  <img src="images/kerala.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Kerala</h5>
+                                    <p class="card-text">Kerala, a state situated on the tropical Malabar Coast of southwestern India, Named as one of the ten paradises of the world by National Geographic Traveler, Kerala is famous especially for its ecotourism initiatives and beautiful backwaters.</p>
+                                  </div>
+                                  <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item">Napier Museum, Thiruvananthapuram.
+                                      Alleppey, Backwater.
+                                      Mesmerising View of Munnar.
+                                      Kumarakom Houseboat.
+                                      Wayanad Wildlife Sanctuary.
+                                      Periyar National Park.</li>
+                                    <li class="list-group-item">STATE: KERALA</li>
+                                    <li class="list-group-item">HOTELS: 3-star hotel averaging ₹2,914, 5-star averaging ₹6,766</li>
+                                  </ul>
+                                  <div class="card-body">
+                                    <a href="#" class="btn btn-success">Contact</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-3 clearfix d-none d-md-block">
+                          <div class="card mb-2">
+                              <div class="card shadow" style="width: 22rem;">
+                                  <img src="images/KOCHI.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Kochi</h5>
+                                    <p class="card-text">Called the "Queen of the Arabian Sea", Kochi was an important spice trading centre on the west coast of India from the 14th century onward, and maintained a trade network with Arab merchants from the pre-Islamic era. Occupied by the Portuguese in 1503.</p>
+                                  </div>
+                                  <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item">Chinese fishing nets.
+                                      Mattancherry Palace.
+                                      Paradesi Synagogue.
+                                      Kodanad Elephant Training Centre.
+                                      Kathakali performances.
+                                      St Francis Church.
+                                      Kerala Folklore Theatre</li>
+                                    <li class="list-group-item">STATE: KERALA</li>
+                                    <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,514, 5-star averaging ₹3,766</li>
+                                  </ul>
+                                  <div class="card-body">
+                                    <a href="#" class="btn btn-success">Contact</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-3 clearfix d-none d-md-block">
+                          <div class="card mb-2">
+                              <div class="card shadow" style="width: 22rem;">
+                                  <img src="images/Kolkata.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Kolkata</h5>
+                                    <p class="card-text">Kolkata, formerly known as Calcutta, is the educational, commercial and cultural centre of the Eastern part of India, and is the third most populous metropolitan city of India. Kolkata is a pioneer in the field of drama, arts, theatreand literature with several nobel laureates </p>
+                                  </div>
+                                  <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item">Victoria Memorial,Dakshineswar Kali Temple.Fort William. ...
+                                      Writer's Building.
+                                      Marble Palace.
+                                      Indian Museum.
+                                      Town Hall.
+                                      Tagore's House.</li>
+                                    <li class="list-group-item">STATE: WEST BENGAL</li>
+                                    <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,714, 5-star averaging ₹5,789</li>
+                                  </ul>
+                                  <div class="card-body">
+                                    <a href="#" class="btn btn-success">Contact</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-md-3 clearfix d-none d-md-block">
+                          <div class="card mb-2">
+                              <div class="card shadow" style="width: 22rem;">
+                                  <img src="images/jaipur.jpeg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Jaipur</h5>
+                                    <p class="card-text">Jaipur, popularly known as the Pink City of India, is the largest city in the state of Rajasthan. It is also the capital of Rajasthan. Known for Hawa Mahal, Jal Mahal, Amer Fort, Jantar Mantar and several other places to visit, Jaipur has numerous stories to tell.It is 268 km from the capital New Delhi.</p>
+                                  </div>
+                                  <ul class="list-group list-group-flush ">
+                                    <li class="list-group-item">Smriti Van.
+                                      Sisodia Rani Garden & Palace.
+                                      Jawahar Circle Garden
+                                      Samode Palace
+                                      Rambagh Palace.
+                                      Nahargarh Fort.
+                                      Amber Fort Jaipur.
+                                      Jaigarh Fort.</li>
+                                    <li class="list-group-item">STATE: RAJASTHAN</li>
+                                    <li class="list-group-item">HOTELS: 3-star hotel averaging ₹4,714, 5-star averaging ₹8,789</li>
+                                  </ul>
+                                  <div class="card-body">
+                                    <a href="#" class="btn btn-success">Contact</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                  </div>
+
+                  </div>
+                  <!--/.Second slide-->
+
+                  <!--Third slide-->
+                  <div class="carousel-item">
+
+                  <div class="row">
+                      <div class="col-md-3">
+                      <div class="card mb-2">
+                          <div class="card shadow" style="width: 22rem;">
+                              <img src="images/ahmedabad.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Ahmedabad</h5>
+                                <p class="card-text">Ahmedabad, also known as Amdavad, is one of the largest cities of India and the former capital of Gujarat. This city of famous tourist attractions is situated on the banks of Sabarmati river and is known for its world-famous cotton textiles, a wide variety of mouth-watering snacks, diamond cutting, and much more</p>
+                              </div>
+                              <ul class="list-group list-group-flush ">
+                                <li class="list-group-item">• Swaminarayan Temple
+                                  • 18th century “pols”
+                                  • Jama Masjid Mosque
+                                  • Sidi Bashir Mosque and the “Shaking Minarets</li>
+                                <li class="list-group-item">STATE: GUJRAT</li>
+                                <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,636, 5-star averaging ₹4,264</li>
+                              </ul>
+                              <div class="card-body">
+                                <a href="#" class="btn btn-success">Contact</a>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+
+                      <div class="col-md-3 clearfix d-none d-md-block">
+                      <div class="card mb-2">
+                          <div class="card shadow" style="width: 22rem;">
+                              <img src="images/taj.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Agra</h5>
+                                <p class="card-text">Agra is a city on the banks of the Yamuna river in the Agra district of the Indian state of Uttar Pradesh. It is 206 kilometres south of the national capital New Delhi. Agra is the fourth-most populous city in Uttar Pradesh and 24th in India.</p>
+                              </div>
+                              <ul class="list-group list-group-flush ">
+                                <li class="list-group-item"> Majestic Gardens. Majestic Gardens.
+                                  Various UNESCO World Heritage Sites. Taj Mahal, Agra.
+                                  Great Shopping Locations. Shopping Street in Agra.
+                                  Mughlai Food.
+                                  Petha.
+                                  Wildlife SOS.
+                                  Kinari Bazaar.
+                                   Jama Masjid.</li>
+                                <li class="list-group-item">STATE: UTTAR PRADESH</li>
+                                <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,396, 5-star averaging ₹4,192</li>
+                              </ul>
+                              <div class="card-body">
+                                <a href="#" class="btn btn-success">Contact</a>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+
+                      <div class="col-md-3 clearfix d-none d-md-block">
+                      <div class="card mb-2">
+                          <div class="card shadow" style="width: 22rem;">
+                              <img src="images/bengaluru.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Bengaluru</h5>
+                                <p class="card-text">Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state. The center of India's high-tech industry, the city is also known for its parks and nightlife. By Cubbon Park, Vidhana Soudha is a Neo-Dravidian legislative building.</p>
+                              </div>
+                              <ul class="list-group list-group-flush ">
+                                <li class="list-group-item">Bangalore Palace.
+                                  Tipu Sultan's Summer Palace,
+                                  Vidhana Soudha,
+                                  ISKCON Temple,
+                                  Halasuru Someshwara Temple,
+                                  Shivoham Shiva Temple,
+                                  Bull Temple.
+                                  Seshadri Iyer Memorial Hall</li>
+                                <li class="list-group-item">STATE: KARNATAKA</li>
+                                <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,838, 5-star averaging ₹5,479</li>
+                              </ul>
+                              <div class="card-body">
+                                <a href="#" class="btn btn-success">Contact</a>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+
+                      <div class="col-md-3 clearfix d-none d-md-block">
+                      <div class="card mb-2">
+                          <div class="card shadow" style="width: 22rem;">
+                              <img src="images/chennai.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Chennai</h5>
+                                <p class="card-text">Chennai, on the Bay of Bengal in eastern India, is the capital of the state of Tamil Nadu. The city is home to Fort St. George, built in 1644 and now a museum showcasing the city’s roots as a British military garrison and East India Company trading outpost.</p>
+                              </div>
+                              <ul class="list-group list-group-flush ">
+                                <li class="list-group-item">Marina Beach  Valluvar Kottam
+                                  Thousand Lights Mosque  Elliot's Beach
+                                  Dakshinachitra  Ashtalakshmi Temple
+                                  Government Museum Mylapore
+                                  Guindy National Park.</li>
+                                <li class="list-group-item">STATE: TAMIL NADU</li>
+                                <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,914, 5-star averaging ₹4,766</li>
+                              </ul>
+                              <div class="card-body">
+                                <a href="#" class="btn btn-success">Contact</a>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+                  </div>
+
+                  </div>
+                  <!--/.Third slide-->
+
+                  <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                  </a>
+
+              </div>
+              <!--/.Slides-->
+
+          </div>
+      </div>
+
+
+        <div class="container-fluid">
+            <div id="multi-item-example2" class="carousel slide carousel-multi-item" data-ride="carousel" style="margin-top: 3vw;">
+
+                <h4>Couple Packages</h4>
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                    <li data-target="#multi-item-example" data-slide-to="1"></li>
+                    <li data-target="#multi-item-example" data-slide-to="2"></li>
+                </ol>
+                <!--/.Indicators-->
+
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+
+                    <!--First slide-->
+                    <div class="carousel-item active">
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/kerala.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Kerala</h5>
+                                      <p class="card-text">Kerala, a state situated on the tropical Malabar Coast of southwestern India, Named as one of the ten paradises of the world by National Geographic Traveler, Kerala is famous especially for its ecotourism initiatives and beautiful backwaters.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item">Napier Museum, Thiruvananthapuram.
+                                        Alleppey, Backwater.
+                                        Mesmerising View of Munnar.
+                                        Kumarakom Houseboat.
+                                        Wayanad Wildlife Sanctuary.
+                                        Periyar National Park.</li>
+                                      <li class="list-group-item">STATE: KERALA</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹2,914, 5-star averaging ₹6,766</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/KOCHI.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Kochi</h5>
+                                      <p class="card-text">Called the "Queen of the Arabian Sea", Kochi was an important spice trading centre on the west coast of India from the 14th century onward, and maintained a trade network with Arab merchants from the pre-Islamic era. Occupied by the Portuguese in 1503</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item">Chinese fishing nets.
+                                        Mattancherry Palace.
+                                        Paradesi Synagogue.
+                                        Kodanad Elephant Training Centre.
+                                        Kathakali performances.
+                                        St Francis Church.
+                                        Kerala Folklore Theatre</li>
+                                      <li class="list-group-item">STATE: KERALA</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,514, 5-star averaging ₹3,766</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/Kolkata.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Kolkata</h5>
+                                      <p class="card-text">Kolkata, formerly known as Calcutta, is the educational, commercial and cultural centre of the Eastern part of India, and is the third most populous metropolitan city of India. Kolkata is a pioneer in the field of drama, arts, theatreand literature with several nobel laureates </p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item">Victoria Memorial,Dakshineswar Kali Temple.Fort William. ...
+                                        Writer's Building.
+                                        Marble Palace.
+                                        Indian Museum.
+                                        Town Hall.
+                                        Tagore's House.</li>
+                                      <li class="list-group-item">STATE: WEST BENGAL</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,714, 5-star averaging ₹5,789</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/jaipur.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Jaipur</h5>
+                                      <p class="card-text">Jaipur, popularly known as the Pink City of India, is the largest city in the state of Rajasthan. It is also the capital of Rajasthan. Known for Hawa Mahal, Jal Mahal, Amer Fort, Jantar Mantar and several other places to visit, Jaipur has numerous stories to tell.It is 268 km from the capital New Delhi.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item">Smriti Van.
+                                        Sisodia Rani Garden & Palace.
+                                        Jawahar Circle Garden
+                                        Samode Palace
+                                        Rambagh Palace.
+                                        Nahargarh Fort.
+                                        Amber Fort Jaipur.
+                                        Jaigarh Fort.</li>
+                                      <li class="list-group-item">STATE: RAJASTHAN</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹4,714, 5-star averaging ₹8,789</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--row-->
+
+                    </div>
+                    <!--/.First slide-->
+
+                    <!--Second slide-->
+                    <div class="carousel-item">
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/goa.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Goa</h5>
+                                      <p class="card-text">Goa is visited by large numbers of international and domestic tourists each year for its white sand beaches, nightlife, places of worship and World Heritage-listed architecture. It has rich flora and fauna, owing to its location on the Western Ghats range, a biodiversity hotspot.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item"> Rent a Private Villa in Goa.
+                                        The Beaches.
+                                        Water Sports.
+                                        Kayaking.
+                                        Whitewater Rafting.
+                                        Snorkeling, Scuba Diving.
+                                        Dolphin Tours.
+                                        Cruising.</li>
+                                      <li class="list-group-item">STATE: GOA</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹6,714, 5-star averaging ₹10,789</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/ooty.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Ooty</h5>
+                                      <p class="card-text">Ooty is most famous for its tea plantations. Connoisseurs will find plenty to choose from: dust and leaf; black, green, black and white varieties; and flavours such as masala, jasmine, cardamom and even chocolate.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item">Avalanche Lake,Ooty Lake, Emerald Lake,Ooty Botanical Gardens,Deer Park,Doddabetta Peak,Kalhatty Waterfalls,Kamraj Sagar Dam,Mudumalai National Park,Mukurthi National Park,Needle View Hillpoint</li>
+                                      <li class="list-group-item">STATE:TAMIL NADU</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹4,714, 5-star averaging 6,589</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/mumbai.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Mumbai</h5>
+                                      <p class="card-text">Mumbai (formerly called Bombay) is a densely populated city on India’s west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item">Gateway of India,,Sanjay Gandhi National Park,Red Carpet Wax Museum,. Haji Ali Dargah, Elephanta Caves, Siddhivinayak Temple,Chhatrapati Shivaji Terminus (CST),Marine Drive.</li>
+                                      <li class="list-group-item">STATE:MAHARASHTRA</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹10,714, 5-star averaging 15,589</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <div class="card shadow" style="width: 22rem;">
+                                    <img src="images/hyderabad.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Hyderabad</h5>
+                                      <p class="card-text">Hyderabad is the capital of southern India's Telangana state. A major center for the technology industry, it's home to many upscale restaurants and shops. Its historic sites include Golconda Fort, a former diamond-trading center that was once the Qutb Shahi dynastic capital.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush ">
+                                      <li class="list-group-item">Golconda Fort.
+                                        The Charminar.
+                                        Mecca Masjid.
+                                        Qutb Shahi Tombs.
+                                        Hussain Sagar Lake.
+                                        Ramoji Film City.
+                                        Salar Jung Museum.
+                                        Chowmahalla Palace.
+                                        Paigah Tombs
+                                        Birla</li>
+                                      <li class="list-group-item">STATE:TELANGANA</li>
+                                      <li class="list-group-item">HOTELS: 3-star hotel averaging ₹5,714, 5-star averaging 7,589</li>
+                                    </ul>
+                                    <div class="card-body">
+                                      <a href="#" class="btn btn-success">Contact</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    </div>
+                    <!--/.Second slide-->
+
+                    <!--Third slide-->
+                    <div class="carousel-item">
+
+                    <div class="row">
+                        <div class="col-md-3">
+                        <div class="card mb-2">
+                            <div class="card shadow" style="width: 22rem;">
+                                <img src="images/ahmedabad.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Ahmedabad</h5>
+                                  <p class="card-text">Ahmedabad, also known as Amdavad, is one of the largest cities of India and the former capital of Gujarat. This city of famous tourist attractions is situated on the banks of Sabarmati river and is known for its world-famous cotton textiles, a wide variety of mouth-watering snacks, diamond cutting, and much more</p>
+                                </div>
+                                <ul class="list-group list-group-flush ">
+                                  <li class="list-group-item">• Swaminarayan Temple
+                                    • 18th century “pols”
+                                    • Jama Masjid Mosque
+                                    • Sidi Bashir Mosque and the “Shaking Minarets</li>
+                                  <li class="list-group-item">STATE: GUJRAT</li>
+                                  <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,636, 5-star averaging ₹4,264</li>
+                                </ul>
+                                <div class="card-body">
+                                  <a href="#" class="btn btn-success">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                        <div class="card mb-2">
+                            <div class="card shadow" style="width: 22rem;">
+                                <img src="images/taj.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Agra</h5>
+                                  <p class="card-text">Agra is a city on the banks of the Yamuna river in the Agra district of the Indian state of Uttar Pradesh. It is 206 kilometres south of the national capital New Delhi. Agra is the fourth-most populous city in Uttar Pradesh and 24th in India.</p>
+                                </div>
+                                <ul class="list-group list-group-flush ">
+                                  <li class="list-group-item">Majestic Gardens. Majestic Gardens.
+                                    Various UNESCO World Heritage Sites. Taj Mahal, Agra.
+                                    Great Shopping Locations. Shopping Street in Agra.
+                                    Mughlai Food.
+                                    Petha.
+                                    Wildlife SOS.
+                                    Kinari Bazaar.
+                                     Jama Masjid.</li>
+                                  <li class="list-group-item">STATE: UTTAR PRADESH</li>
+                                  <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,396, 5-star averaging ₹4,192</li>
+                                </ul>
+                                <div class="card-body">
+                                  <a href="#" class="btn btn-success">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                        <div class="card mb-2">
+                            <div class="card shadow" style="width: 22rem;">
+                                <img src="images/bengaluru.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Bengaluru</h5>
+                                  <p class="card-text">Bengaluru (also called Bangalore) is the capital of India's southern Karnataka state. The center of India's high-tech industry, the city is also known for its parks and nightlife. By Cubbon Park, Vidhana Soudha is a Neo-Dravidian legislative building.</p>
+                                </div>
+                                <ul class="list-group list-group-flush ">
+                                  <li class="list-group-item">Bangalore Palace.
+                                    Tipu Sultan's Summer Palace,
+                                    Vidhana Soudha,
+                                    ISKCON Temple,
+                                    Halasuru Someshwara Temple,
+                                    Shivoham Shiva Temple,
+                                    Bull Temple.
+                                    Seshadri Iyer Memorial Hall</li>
+                                  <li class="list-group-item">STATE: KARNATAKA</li>
+                                  <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,838, 5-star averaging ₹5,479</li>
+                                </ul>
+                                <div class="card-body">
+                                  <a href="#" class="btn btn-success">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col-md-3 clearfix d-none d-md-block">
+                        <div class="card mb-2">
+                            <div class="card shadow" style="width: 22rem;">
+                                <img src="images/chennai.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Chennai</h5>
+                                  <p class="card-text">Chennai, on the Bay of Bengal in eastern India, is the capital of the state of Tamil Nadu. The city is home to Fort St. George, built in 1644 and now a museum showcasing the city’s roots as a British military garrison and East India Company trading outpost.</p>
+                                </div>
+                                <ul class="list-group list-group-flush ">
+                                  <li class="list-group-item">Marina Beach  Valluvar Kottam
+                                    Thousand Lights Mosque  Elliot's Beach
+                                    Dakshinachitra  Ashtalakshmi Temple
+                                    Government Museum Mylapore
+                                    Guindy National Park.</li>
+                                  <li class="list-group-item">STATE: TAMIL NADU</li>
+                                  <li class="list-group-item">HOTELS: 3-star hotel averaging ₹1,914, 5-star averaging ₹4,766</li>
+                                </ul>
+                                <div class="card-body">
+                                  <a href="#" class="btn btn-success">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    </div>
+                    <!--/.Third slide-->
+
+                    <a class="carousel-control-prev" href="#multi-item-example2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#multi-item-example2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+                <!--/.Slides-->
+
+            </div>
+        </div>
+         <!--Carousel Wrapper-->
+
+        <!--/.Carousel Wrapper-->
+
+    </body>
+</html>
